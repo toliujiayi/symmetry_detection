@@ -1,7 +1,8 @@
 import numpy as np
 import trimesh
-import plotly
-import plotly.plotly as py
+# import plotly
+# import plotly.plotly as py
+from chart_studio import plotly as py
 from plotly.graph_objs import *
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 init_notebook_mode(connected=True)

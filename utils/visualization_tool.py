@@ -1,8 +1,11 @@
 from sklearn.manifold import MDS
 
-import plotly.plotly as py
-import plotly.graph_objs as go
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+# import plotly.plotly as py
+from chart_studio import plotly as py
+from chart_studio.plotly import graph_objs as go
+# import plotly.graph_objs as go
+# from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+from chart_studio.plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 init_notebook_mode(connected=True)
 
 import numpy as np
